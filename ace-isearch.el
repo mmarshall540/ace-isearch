@@ -83,7 +83,10 @@
                  (const :tag "Use ace-jump-char-mode." ace-jump-char-mode)
                  (const :tag "Use avy-goto-word-1." avy-goto-word-1)
                  (const :tag "Use avy-goto-subword-1." avy-goto-subword-1)
-                 (const :tag "Use avy-goto-char." avy-goto-char))
+		 (const :tag "Use avy-goto-word-or-subword-1" avy-goto-word-or-subword-1)
+		 (const :tag "Use avy-goto-symbol-1." avy-goto-symbol-1)
+                 (const :tag "Use avy-goto-char." avy-goto-char)
+		 (const :tag "Use avy-goto-char-in-line." avy-goto-char-in-line))
   :group 'ace-isearch)
 
 (defcustom ace-isearch-2-function 'avy-goto-char-2
